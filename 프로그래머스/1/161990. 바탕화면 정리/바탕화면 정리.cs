@@ -24,7 +24,7 @@ public class Solution {
         int MaxY=0;
         
 //       Console.WriteLine(wallpaper.First().Length);
-        for(int i =0 ; i<wallpaper.GetLength(0); i++){
+        for(int i =0 ; i<wallpaper.Length; i++){
             int Firstindex = wallpaper[i].IndexOf('#');
             int Lastindex = wallpaper[i].LastIndexOf('#');
      
